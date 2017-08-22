@@ -1,5 +1,5 @@
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}/*# sourceMappingURL=normalize.min.css.map */
-text-decoration: none;
+
 
 * {
   box-sizing: border-box;
@@ -165,51 +165,50 @@ text-align:center;
 }
 #grav{
     position:absolute;
-    margin-left:60px;
-    margin-top:100px;
+    margin-left:10px;
+    margin-top:2000px;
     
 }
 #adv{
     position:absolute;
-    margin-left:500px;
-    margin-top:2000px;
+    margin-left:90px;
+    margin-top:2500px;
 }
 #cat{
     position:absolute;
-    margin-left:1000px;
-    margin-top:2500px;
+    margin-left:10px;
+    margin-top:2290px;
 }
 #out{
     position:absolute;
-    margin-left:900px;
-    margin-top:1000px;
+    margin-left:10px;
+    margin-top:3300px;
     
 }
 #muscel{
     position:absolute;
-    margin-left:400px;
-    margin-top:500px;
+    margin-left:900px;
+    margin-top:2000px;
 }
 #sponge{
     position:absolute;
-    margin-left:100px;
-    margin-top:1100px;
+    margin-left:410px;
+    margin-top:2000px;
 }
 
 #flix{
     position:absolute;
-    margin-top:3000px;
-    margin-left:450px;
+    margin-top:2280px;
+    margin-left:900px;
     margin-bottom:500px
 }
 #para2{
-    font-family: monospace;
+    font-family: Arial;
     margin-left:900px;
     font-size:50px;
     border:solid black 5px;
-   
     padding:10px 10px 10px 10px;
-    color:white;
+    color:black;
     position:fixed;
     margin-bottom:200px
 }
@@ -217,14 +216,129 @@ text-align:center;
 #para3{
     align-content: center;
     margin-top:3600px;
-    margin-left:480px;
-    position:absolute
+    margin-left:0px;
+    position:absolute;
+    font-size:48px
+    
+}
+
+#brain{
+    position:absolute;
+    margin-top:300px;
+    margin-left:200px
+
+}
+#click{
+    font-size:40px;
+    margin-left:350px;
+    font-family:cursive
 }
 
 
+       body {
+      animation: colorchange 60s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 50s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: red;}
+      25%  {background: pink;}
+      50%  {background: purple;}
+      75%  {background: blue;}
+      100% {background: aqua;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+
+#sometimes{
+    font-size: 80px
+}
+
+#get{
+    font-size: 500px;
+    font-family: monospace;
+    position: absolute;
+    margin-top:-100px;
+    margin-left:150px;
+    text-align: center
+    
+}
+#stuff{
+    font-size:200px;
+    position: absolute;
+    margin-top:300px;
+    margin-left:800px
+}
+#Done2{
+    font-size:300px;
+    position:absolute;
+    margin-top:300px;
+    margin-left:300px;
+}
+#mind{
+    font-size:50px;
+    margin-top:750px;
+    margin-left:50px
+        
+}
+#fb{
+    margin-top:100px
+}
+
+#dont2{
+    font-size:400px;
+    margin-top:50px
+}
+#get2{
+    font-size:200px;
+    margin-left:800px;
+    margin-top:-600px
+}
+#stuff2{
+    font-size:300px;
+    margin-top:-400px;
+    margin-left:200px
+}
+#done3{
+    font-size:500px;
+    margin-top:-500px;
+    margin-left:100px
+    
+}
+
+#DONE{
+    font-size:500px;
+    margin-top:-20px;
+    color:white;
+}
+#DONE2{
+    font-size:600px;
+    margin-top:-800px;
+}
+#DONE3{
+    font-size:700px;
+    margin-top:-1000px;
+    color:lightblue
+}
+#DONE4{
+    font-size:500px;
+    margin-top:-1100px;
+    color:dimgrey;
+    margin-bottom:0px
+    
+}
 #line{
-    text-decoration-line: none;
-    text-decoration: none
+    text-decoration-line: none
 }
 /* Start here */
 
